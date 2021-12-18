@@ -27,8 +27,6 @@ class BANK_ACCOUNT():
                                                          
     def data_featuring(self):
         self.postcode=self.address.split()[-1]
-        
-        pass
     
     def data_remain_cleaning(self):
         
@@ -39,8 +37,6 @@ class BANK_ACCOUNT():
             'income' : self.income,
             'interest_rate' : self.interest_rate
         }
-        
-        pass
     
     #custom methods
         
